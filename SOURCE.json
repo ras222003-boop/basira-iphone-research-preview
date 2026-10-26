@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "fcd0c5f4bcd0c99d98f6f8f23db43667362894bf",
+  "sourceCommit": "40048f22832d6cb7a7dda0569234b41116caef76",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 514,
-      "sha256": "fbbbd3711abc9ee06cc8a1b45ce5c7d5d58161694b9205e5a3c3114dc1099037"
+      "sha256": "757d4aefa5b4d4d943664dfd1fc0bb45b1a3f45a7ddd27e838af2e366d48444c"
     },
     {
       "path": "api/vision/experimental-models",
@@ -82,6 +82,11 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
+      "path": "assets/index-BfLW3sOR.js",
+      "bytes": 831397,
+      "sha256": "0f89e823ca1ee4c64c7be0732df552cbee3a4a489707246fcd7951f84bd05464"
+    },
+    {
       "path": "assets/index-CL_HdWjX.css",
       "bytes": 171907,
       "sha256": "dcc40e97b6d07403f7d1f390eea810bf58e67c6f16e96dd2c13ae45d96e88302"
@@ -90,11 +95,6 @@
       "path": "assets/index-DgvX7Flt.js",
       "bytes": 15829,
       "sha256": "b929ddb6730731c69a6ac4d131bdcd6daf71f43b62252ef25f59780cd0ef68fe"
-    },
-    {
-      "path": "assets/index-DnS4lSRx.js",
-      "bytes": 829618,
-      "sha256": "61d4ac8f863a5abc8713150b7b77dad547abe8c141cfef2657e0962c9a18b993"
     },
     {
       "path": "assets/metricWorker-BjXR3XUd.js",
@@ -139,7 +139,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "f66cd4d2c13b47b3d15a81b9881535e6f4cbb48e4a69f0525cd575877231b93d"
+      "sha256": "d4f861679ec50a1494b0adb9ce9d3ff5c545114b5622948474d74926250c9dab"
     },
     {
       "path": "manifest.webmanifest",
@@ -149,7 +149,7 @@
     {
       "path": "model-notices/preview-admission.json",
       "bytes": 2662,
-      "sha256": "daf08e0e749c004ddc9dca302211b30dae6ca965fa4d5a6e75f19eb617a9cfd8"
+      "sha256": "9b63fd6268735dd459271f2280da0575815af19cdc5c4e623e1a823a6ad9bcb8"
     },
     {
       "path": "vision/efficientdet_lite0_int8.tflite",
@@ -207,7 +207,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142248806,
+  "bytes": 142250585,
   "models": [
     {
       "id": "objects-yolox-tiny",
