@@ -19,10 +19,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+      - run: node assemble-preview.mjs
       - run: node verify-preview.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: 'dist'
       - id: deploy
         uses: actions/deploy-pages@v4

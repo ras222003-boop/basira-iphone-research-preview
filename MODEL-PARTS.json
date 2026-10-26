@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "target": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/yolox_tiny.onnx",
+  "bytes": 20258925,
+  "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+  "parts": [
+    {
+      "path": ".delivery/v3-00.bin",
+      "bytes": 5000000,
+      "sha256": "92c923c1e24f1b729f1da6602a534db616cedb48e37829194d423bf5eaa0f45a"
+    },
+    {
+      "path": ".delivery/v3-01.bin",
+      "bytes": 5000000,
+      "sha256": "cb0d75390ebd6eebfe38ac51cb3510d67063abd1810a5233f7b484348256cc0a"
+    },
+    {
+      "path": ".delivery/v3-02.bin",
+      "bytes": 5000000,
+      "sha256": "47dfdae3675cbc6846e37ab1672d3156e6bd6202289158fd9f1cdf6ae1c6110d"
+    },
+    {
+      "path": ".delivery/v3-03.bin",
+      "bytes": 5000000,
+      "sha256": "695a0bd7745f3c26ca6abd3dc82e4911cfe014ae236df713c4ce24764a3abc2a"
+    },
+    {
+      "path": ".delivery/v3-04.bin",
+      "bytes": 258925,
+      "sha256": "6006e4ee31bce9f95f67af4a1e4ad52802d655f63e096f408201aa1f6510322a"
+    }
+  ]
+}
