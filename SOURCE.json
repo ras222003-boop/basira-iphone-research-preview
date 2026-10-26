@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "4ef76c1f56eae4e489e3c388a261cc1ffc67bd55",
+  "sourceCommit": "ab40b0b14a8377ffa69cad958104106e2e7df82d",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 514,
-      "sha256": "127cbd3cc0e4ba0e6f25a671d2d465a67e3696433a84b19a8b1eb05624df8922"
+      "sha256": "1fd8144914697b6e4702d3872031515489b11cb8751e13a00768c0e0708fdc62"
     },
     {
       "path": "api/vision/experimental-models",
@@ -82,9 +82,9 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-BiUpMj4e.js",
-      "bytes": 823443,
-      "sha256": "037f502ab3d53f76103693bf3f560ffe9e78d5670e18d9b2fe282776eaa92944"
+      "path": "assets/index-C8-jj6i7.js",
+      "bytes": 823376,
+      "sha256": "cb469388b5ab0660cdcde50f2eede5d8da2d55598f63c9888f7c5812e077e6bc"
     },
     {
       "path": "assets/index-CL_HdWjX.css",
@@ -102,9 +102,9 @@
       "sha256": "eccd10ab7660f8f411718831f45fa3ba56dca8c9c4b71c971d201f455c38ee5b"
     },
     {
-      "path": "assets/objectWorker-MX4MX49V.js",
-      "bytes": 65976,
-      "sha256": "9380727d474ec4468d84f77a5b25eff57c2f8c0457ffb7e98fdc9aac970c4c4f"
+      "path": "assets/objectWorker-Cx-kqPzJ.js",
+      "bytes": 65979,
+      "sha256": "a738520d56e568daf4bd1c5736db76d3ecb05ad76c1d2da1d19fb9b1d8e713c7"
     },
     {
       "path": "assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
@@ -139,7 +139,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "918425c6e61cca96bbf20ddf4cf4880ee9a784b0c32380da01ffef1571e505b7"
+      "sha256": "8e6bd9e074440b5c9215814822de6f26b1ebb3ee34668b93618f098fc3e7a0f4"
     },
     {
       "path": "manifest.webmanifest",
@@ -149,7 +149,7 @@
     {
       "path": "model-notices/preview-admission.json",
       "bytes": 2662,
-      "sha256": "6b81f28027418c0a364a4189b03dbc6553ac7f9449bb7bdf69f0cfce9ab9134a"
+      "sha256": "ea3f52f1143fddd4c5b2dfca2c1811030bed7412e388b75be796b6ea7aa41796"
     },
     {
       "path": "vision/efficientdet_lite0_int8.tflite",
@@ -207,7 +207,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142238812,
+  "bytes": 142238748,
   "models": [
     {
       "id": "objects-yolox-tiny",
