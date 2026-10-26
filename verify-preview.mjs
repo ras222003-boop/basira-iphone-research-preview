@@ -1,0 +1,4 @@
+import {readFile} from 'node:fs/promises';import {createHash} from 'node:crypto';import {resolve} from 'node:path';
+const p=JSON.parse(await readFile('SOURCE.json'));if(!p.publishable||p.developmentBuild||!p.sourceWasClean||p.privateMediaIncluded!==false||p.restrictedModelsIncluded!==false)throw Error('Unqualified preview');
+for(const r of p.files){if(r.path.includes('..')||r.path.startsWith('/')||/\\|\.env|\.pem$|\.key$|\.pth$|\.pt$|Xenova|onnx-community|slimsam/i.test(r.path))throw Error('Unqualified path');const b=await readFile(resolve(r.path));if(b.length!==r.bytes||createHash('sha256').update(b).digest('hex')!==r.sha256)throw Error('Changed preview file');}
+console.log(JSON.stringify({verifiedFiles:p.files.length,sourceCommit:p.sourceCommit,privateMediaIncluded:false,iphoneTested:false}));

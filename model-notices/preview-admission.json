@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "4ef76c1f56eae4e489e3c388a261cc1ffc67bd55",
+  "models": [
+    {
+      "id": "objects-yolox-tiny",
+      "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+      "publisherGrant": "Apache-2.0",
+      "upstreamPretrainingPhotosReaudited": false,
+      "productionApproved": false
+    },
+    {
+      "id": "objects-basira-v3",
+      "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+      "publisherGrant": "Apache-2.0",
+      "upstreamPretrainingPhotosReaudited": false,
+      "productionApproved": false
+    }
+  ],
+  "files": [
+    {
+      "path": "yolox/yolox_tiny.onnx",
+      "bytes": 20219662,
+      "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7"
+    },
+    {
+      "path": "yolox/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "yolox/README.md",
+      "bytes": 3177,
+      "sha256": "587068c99b5685a27c8b3460bb28b21a2ac51b3de0a157c9e087241f03d51b35"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1478,
+      "sha256": "dc52e19ad04a9eb8133d8f1c5fbe7bbd95fd98cc42bf0858d088c5cd549d91a0"
+    },
+    {
+      "path": "finetuned-v3/yolox/yolox_tiny.onnx",
+      "bytes": 20258925,
+      "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38"
+    },
+    {
+      "path": "finetuned-v3/yolox/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "finetuned-v3/yolox/LICENSE-YCB",
+      "bytes": 1065,
+      "sha256": "8a236ca04573bec835d33fb30b98b5bd3c551718a6ef7b33854d9202a8e2d167"
+    },
+    {
+      "path": "finetuned-v3/yolox/LINEAGE.json",
+      "bytes": 945,
+      "sha256": "08124c21de529f1810018e6da8c9b1346e5ca289b26a73a455b3ac4f6a3e77e8"
+    },
+    {
+      "path": "finetuned-v3/yolox/DATA-ATTRIBUTIONS.json",
+      "bytes": 89690,
+      "sha256": "4ecc5c8c1f6183cab3ba3b58d9a6c39d3880ad4f83623e513ca00d5e0ab724a4"
+    },
+    {
+      "path": "finetuned-v3/basira-knowledge.json",
+      "bytes": 1876588,
+      "sha256": "731a52d5fa06d1adcbe0918eda475916266d0e8a0dec7ac812b9fab557425fc6"
+    },
+    {
+      "path": "finetuned-v3/manifest.json",
+      "bytes": 2364,
+      "sha256": "a3d5c9edefed6bffd812b12d8241d7755a95299751c87e45c2020389b05aa827"
+    }
+  ],
+  "maskModelsIncluded": false,
+  "restrictedModelsIncluded": false,
+  "privateMediaIncluded": false,
+  "trainingDataIncluded": false,
+  "usage": "Isolated research preview; source grants are not production, phone, colour or navigation qualification."
+}

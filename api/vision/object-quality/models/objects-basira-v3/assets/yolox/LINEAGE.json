@@ -1,0 +1,18 @@
+{
+  "modelSha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+  "checkpointSha256": "248d626ba1c3e5337bc28bd25cab681bae1f7a18d7ccc593a8a300b14f2e573c",
+  "initialTinySha256": "9de513de589ac98bb92d3bca53b5af7b9acfa9b0bacb831f7999d0f7afaee8f0",
+  "usedRestrictedSources": false,
+  "usedV1OrV2WeightsOrTeacher": false,
+  "commercialTrainingAllowed": true,
+  "productionEligible": false,
+  "manifestSha256": "17bb835bd88d4e73d3d3101e31c61869f8b17e8e4226facca0707f42be6c4bcf",
+  "rightsAuditSha256": "bc148d6db161f1171dc7ccc3cecdf3bd93ef30a8cdbd6cb3f813d1d84ccc49d3",
+  "trainingImages": 116,
+  "trainingSources": {
+    "coco-commercial": 30,
+    "ycb-video": 86
+  },
+  "usage": "Experimental only. Retain all licence/attribution notices. No navigation or automatic production approval.",
+  "upstreamPermissionLimit": "Publisher model grant verified; not an audit of every original pretraining photograph."
+}

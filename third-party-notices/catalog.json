@@ -1,0 +1,95 @@
+{
+  "scope": "Core browser runtime notices; model-specific notices and data attribution are retained separately. Not a claim that all packages listed are loaded in every mode.",
+  "entries": [
+    {
+      "file": "onnxruntime-MIT.txt",
+      "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/89f8206ba4/LICENSE",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "file": "mediapipe-Apache-2.0.txt",
+      "source": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/master/LICENSE",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "file": "tensorflow-models-Apache-2.0.txt",
+      "source": "https://raw.githubusercontent.com/tensorflow/models/master/LICENSE",
+      "bytes": 11512,
+      "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385"
+    },
+    {
+      "file": "react-LICENSE",
+      "package": "react",
+      "version": "19.2.1",
+      "declaredLicense": "MIT",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "react-dom-LICENSE",
+      "package": "react-dom",
+      "version": "19.2.1",
+      "declaredLicense": "MIT",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "lucide-react-LICENSE",
+      "package": "lucide-react",
+      "version": "0.453.0",
+      "declaredLicense": "ISC",
+      "bytes": 880,
+      "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+    },
+    {
+      "file": "huggingface_transformers-LICENSE",
+      "package": "@huggingface/transformers",
+      "version": "3.7.6",
+      "declaredLicense": "Apache-2.0",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "radix-ui_react-tooltip-LICENSE",
+      "package": "@radix-ui/react-tooltip",
+      "version": "1.2.8",
+      "declaredLicense": "MIT",
+      "bytes": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+    },
+    {
+      "file": "class-variance-authority-LICENSE",
+      "package": "class-variance-authority",
+      "version": "0.7.1",
+      "declaredLicense": "Apache-2.0",
+      "bytes": 10753,
+      "sha256": "0ccbf956cffc8dcf515809433cb5242ee67c94513d46e48c261d68d0880de406"
+    },
+    {
+      "file": "clsx-license",
+      "package": "clsx",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "bytes": 1104,
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+    },
+    {
+      "file": "tailwind-merge-LICENSE.md",
+      "package": "tailwind-merge",
+      "version": "3.3.1",
+      "declaredLicense": "MIT",
+      "bytes": 1070,
+      "sha256": "d4c70c7ce38cea8778f0aed3fc0bef0a9dbd27f13bd8b6773cbd6d37941971e5"
+    },
+    {
+      "file": "tailwindcss-LICENSE",
+      "package": "tailwindcss",
+      "version": "4.1.14",
+      "declaredLicense": "MIT",
+      "bytes": 1071,
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "enabled": true,
+  "profile": {
+    "id": "objects-yolox-tiny",
+    "name": "YOLOX-Tiny — أشياء وألوان تجريبية",
+    "model": "yolox-tiny",
+    "modelSha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+    "threshold": 0.5,
+    "navigationEligible": false,
+    "productionEligible": false,
+    "humanApproval": false,
+    "maskForStills": false,
+    "maskModel": "slimsam-q8",
+    "validationSha256": "708f23c84be28076043953798ec6aa53b2945f2f167afd7d1f791f858c18e573",
+    "assets": {
+      "yolox/yolox_tiny.onnx": {
+        "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+        "bytes": 20219662
+      },
+      "yolox/LICENSE": {
+        "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+        "bytes": 11371
+      },
+      "yolox/README.md": {
+        "sha256": "587068c99b5685a27c8b3460bb28b21a2ac51b3de0a157c9e087241f03d51b35",
+        "bytes": 3177
+      }
+    },
+    "maskContractStatus": "POINT_PROMPTS_ONLY_UNQUALIFIED",
+    "maskQualification": "REJECTED_FINAL",
+    "colorStatus": "UNPROVEN",
+    "maskFinalEvidenceSha256": "77bc1ba0dff7f01558b40b75833cab58917ec12ec29032860ba39049d2677a9f",
+    "qualification": "desktop validation only; iPhone and human colour accuracy unproven; final mask failure vetoes deployment without retuning the final test",
+    "licences": {
+      "yolox": "Apache-2.0 official publisher release linked by repository",
+      "slimsam": "Apache-2.0 pinned ONNX model-card revision 5850ab45f587c112167512ffef949107115e26a0"
+    }
+  },
+  "profiles": [
+    {
+      "id": "objects-yolox-tiny",
+      "name": "YOLOX-Tiny — أشياء وألوان تجريبية",
+      "model": "yolox-tiny",
+      "modelSha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+      "threshold": 0.5,
+      "navigationEligible": false,
+      "productionEligible": false,
+      "humanApproval": false,
+      "maskForStills": false,
+      "maskModel": "slimsam-q8",
+      "validationSha256": "708f23c84be28076043953798ec6aa53b2945f2f167afd7d1f791f858c18e573",
+      "assets": {
+        "yolox/yolox_tiny.onnx": {
+          "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+          "bytes": 20219662
+        },
+        "yolox/LICENSE": {
+          "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+          "bytes": 11371
+        },
+        "yolox/README.md": {
+          "sha256": "587068c99b5685a27c8b3460bb28b21a2ac51b3de0a157c9e087241f03d51b35",
+          "bytes": 3177
+        }
+      },
+      "maskContractStatus": "POINT_PROMPTS_ONLY_UNQUALIFIED",
+      "maskQualification": "REJECTED_FINAL",
+      "colorStatus": "UNPROVEN",
+      "maskFinalEvidenceSha256": "77bc1ba0dff7f01558b40b75833cab58917ec12ec29032860ba39049d2677a9f",
+      "qualification": "desktop validation only; iPhone and human colour accuracy unproven; final mask failure vetoes deployment without retuning the final test",
+      "licences": {
+        "yolox": "Apache-2.0 official publisher release linked by repository",
+        "slimsam": "Apache-2.0 pinned ONNX model-card revision 5850ab45f587c112167512ffef949107115e26a0"
+      }
+    },
+    {
+      "id": "objects-basira-v3",
+      "name": "بصيرة أشياء V3 — تدريب بمصادر مؤهلة، تقييم تجريبي",
+      "model": "yolox-tiny",
+      "modelSha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+      "threshold": 0.5,
+      "inputSize": 416,
+      "navigationEligible": false,
+      "productionEligible": false,
+      "humanApproval": false,
+      "maskForStills": false,
+      "maskModel": "slimsam-q8",
+      "maskQualification": "REJECTED_FINAL",
+      "colorStatus": "UNPROVEN",
+      "commercialTrainingAllowed": true,
+      "knowledgeSha256": "731a52d5fa06d1adcbe0918eda475916266d0e8a0dec7ac812b9fab557425fc6",
+      "lineageEvidenceSha256": "08124c21de529f1810018e6da8c9b1346e5ca289b26a73a455b3ac4f6a3e77e8",
+      "validationSha256": "8f142cc05fe94d0035bce91832f2a746303003d221fc55e07af91ce9242b42f4",
+      "assets": {
+        "yolox/yolox_tiny.onnx": {
+          "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+          "bytes": 20258925
+        },
+        "yolox/LICENSE": {
+          "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+          "bytes": 11371
+        },
+        "yolox/LICENSE-YCB": {
+          "sha256": "8a236ca04573bec835d33fb30b98b5bd3c551718a6ef7b33854d9202a8e2d167",
+          "bytes": 1065
+        },
+        "yolox/LINEAGE.json": {
+          "sha256": "08124c21de529f1810018e6da8c9b1346e5ca289b26a73a455b3ac4f6a3e77e8",
+          "bytes": 945
+        },
+        "yolox/DATA-ATTRIBUTIONS.json": {
+          "sha256": "4ecc5c8c1f6183cab3ba3b58d9a6c39d3880ad4f83623e513ca00d5e0ab724a4",
+          "bytes": 89690
+        }
+      },
+      "trainingEvidence": {
+        "checkpointSha256": "248d626ba1c3e5337bc28bd25cab681bae1f7a18d7ccc593a8a300b14f2e573c",
+        "optimizerSteps": 264,
+        "epochs": 3,
+        "onnxValidationSha256": "7fdb0a573adfdc4a40cda905162d5244e50cb9203fbabb4f9a6fc5c9bf80fa9e",
+        "testEvaluationSha256": "eb400cda1f0762e46d887309affae91d1a027e8efe9108d5de11b4251e1a3442",
+        "finalUsedForSelection": false
+      },
+      "licence": "YOLOX Apache-2.0 publisher checkpoint; YCB MIT; each fresh COCO training image CC BY2.0 verified and archived. No BDD ancestor.",
+      "usageRestrictions": [
+        "Retain original MIT/Apache/CC BY notices and per-image attributions; public licence is not private-person consent."
+      ],
+      "qualification": "Source training permission is separate from product, phone, accuracy and navigation qualification. All remain unapproved."
+    }
+  ]
+}

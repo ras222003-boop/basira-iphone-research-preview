@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "4ef76c1f56eae4e489e3c388a261cc1ffc67bd55",
+  "sourceWasClean": true,
+  "developmentBuild": false,
+  "publishable": true,
+  "base": "/basira-iphone-research-preview/",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "api/preview/status",
+      "bytes": 514,
+      "sha256": "127cbd3cc0e4ba0e6f25a671d2d465a67e3696433a84b19a8b1eb05624df8922"
+    },
+    {
+      "path": "api/vision/experimental-models",
+      "bytes": 38,
+      "sha256": "1f74bed6556661e4fffc9fca491405cbfe3e40a771a1d795af98e69bdd23645b"
+    },
+    {
+      "path": "api/vision/object-quality/assets/yolox/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "api/vision/object-quality/assets/yolox/README.md",
+      "bytes": 3177,
+      "sha256": "587068c99b5685a27c8b3460bb28b21a2ac51b3de0a157c9e087241f03d51b35"
+    },
+    {
+      "path": "api/vision/object-quality/assets/yolox/yolox_tiny.onnx",
+      "bytes": 20219662,
+      "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7"
+    },
+    {
+      "path": "api/vision/object-quality/knowledge",
+      "bytes": 1876588,
+      "sha256": "731a52d5fa06d1adcbe0918eda475916266d0e8a0dec7ac812b9fab557425fc6"
+    },
+    {
+      "path": "api/vision/object-quality/manifest",
+      "bytes": 5810,
+      "sha256": "664454584d4c0b09c8e4e94448b5d94bbf090f92eefd1c02953c24089f858e31"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/DATA-ATTRIBUTIONS.json",
+      "bytes": 89690,
+      "sha256": "4ecc5c8c1f6183cab3ba3b58d9a6c39d3880ad4f83623e513ca00d5e0ab724a4"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/LICENSE-YCB",
+      "bytes": 1065,
+      "sha256": "8a236ca04573bec835d33fb30b98b5bd3c551718a6ef7b33854d9202a8e2d167"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/LINEAGE.json",
+      "bytes": 945,
+      "sha256": "08124c21de529f1810018e6da8c9b1346e5ca289b26a73a455b3ac4f6a3e77e8"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/yolox_tiny.onnx",
+      "bytes": 20258925,
+      "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-basira-v3/knowledge",
+      "bytes": 1876588,
+      "sha256": "731a52d5fa06d1adcbe0918eda475916266d0e8a0dec7ac812b9fab557425fc6"
+    },
+    {
+      "path": "assets/experimentalStairsWorker-dE4hzNMt.js",
+      "bytes": 50932,
+      "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
+    },
+    {
+      "path": "assets/index-BiUpMj4e.js",
+      "bytes": 823443,
+      "sha256": "037f502ab3d53f76103693bf3f560ffe9e78d5670e18d9b2fe282776eaa92944"
+    },
+    {
+      "path": "assets/index-CL_HdWjX.css",
+      "bytes": 171907,
+      "sha256": "dcc40e97b6d07403f7d1f390eea810bf58e67c6f16e96dd2c13ae45d96e88302"
+    },
+    {
+      "path": "assets/index-DgvX7Flt.js",
+      "bytes": 15829,
+      "sha256": "b929ddb6730731c69a6ac4d131bdcd6daf71f43b62252ef25f59780cd0ef68fe"
+    },
+    {
+      "path": "assets/metricWorker-BjXR3XUd.js",
+      "bytes": 6425,
+      "sha256": "eccd10ab7660f8f411718831f45fa3ba56dca8c9c4b71c971d201f455c38ee5b"
+    },
+    {
+      "path": "assets/objectWorker-MX4MX49V.js",
+      "bytes": 65976,
+      "sha256": "9380727d474ec4468d84f77a5b25eff57c2f8c0457ffb7e98fdc9aac970c4c4f"
+    },
+    {
+      "path": "assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "assets/ort.bundle.min-IwnXpiS1.js",
+      "bytes": 396049,
+      "sha256": "6708c81d83a29e648fbd166d46bb6b91572dde9e559c78e4ca3026caabb046e9"
+    },
+    {
+      "path": "assets/transformers.web-B1DaSW3z.js",
+      "bytes": 883070,
+      "sha256": "062a1f114d11f6ceb264f66216aac376e1ff19f3a9318aa52730e71071ef5353"
+    },
+    {
+      "path": "assets/transformers.web-DbtAZHkA.js",
+      "bytes": 883190,
+      "sha256": "4c56cc1d0a6d491219b96c0cf4b4a5d5a5eddd74bab62dc31324ac4ada1e7554"
+    },
+    {
+      "path": "assets/vision_bundle-CL2Y9qB2.js",
+      "bytes": 143579,
+      "sha256": "7675454e2447a774fc145aba6abc3239a63254cc3ea5589c38cb86d47b837bba"
+    },
+    {
+      "path": "basira-icon.svg",
+      "bytes": 377,
+      "sha256": "856879020884ae2d49127aa7c2c19fe159e413e430f669669b23f74f266fa285"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1556,
+      "sha256": "918425c6e61cca96bbf20ddf4cf4880ee9a784b0c32380da01ffef1571e505b7"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 353,
+      "sha256": "02961b321eede0c0c3458b7054d0bfbb7ea8abb4589e11067a7ea782ee28cf92"
+    },
+    {
+      "path": "model-notices/preview-admission.json",
+      "bytes": 2662,
+      "sha256": "6b81f28027418c0a364a4189b03dbc6553ac7f9449bb7bdf69f0cfce9ab9134a"
+    },
+    {
+      "path": "vision/efficientdet_lite0_int8.tflite",
+      "bytes": 4602795,
+      "sha256": "0720bf247bd76e6594ea28fa9c6f7c5242be774818997dbbeffc4da460c723bb"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_internal.js",
+      "bytes": 323377,
+      "sha256": "e170ee67dd4e16c1a6fcd8840a206687e5a59b22c20e4a902bc445b095454d73"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_internal.wasm",
+      "bytes": 11756954,
+      "sha256": "8da277a733926eacd0474b8704b36742d6ec3231c57a860c5b889dff8f1df886"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_module_internal.js",
+      "bytes": 323415,
+      "sha256": "da8934057f147b622e82cfb4c0dbd85461c598e268588b5a8ba9ca963a8ff82d"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_module_internal.wasm",
+      "bytes": 11756972,
+      "sha256": "2dabd8e23c60984628beb7bb338764c81a08e6837145273f59578684b5d53c1b"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_nosimd_internal.js",
+      "bytes": 323180,
+      "sha256": "e81d715a3d42cc3373602eb2f7aff795d164934db680e32496b65dab537f9658"
+    },
+    {
+      "path": "vision/mediapipe/vision_wasm_nosimd_internal.wasm",
+      "bytes": 10960242,
+      "sha256": "a28483cd42e74e855bf5ebdb6b40d9b66a5b49e35e95020bc97669e6822a3192"
+    },
+    {
+      "path": "vision/onnx/ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "vision/onnx/ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "vision/onnx/ort-wasm-simd-threaded.mjs",
+      "bytes": 20856,
+      "sha256": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4"
+    },
+    {
+      "path": "vision/onnx/ort-wasm-simd-threaded.wasm",
+      "bytes": 11133407,
+      "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
+    }
+  ],
+  "bytes": 142238812,
+  "models": [
+    {
+      "id": "objects-yolox-tiny",
+      "sha256": "427cc366d34e27ff7a03e2899b5e3671425c262ea2291f88bb942bc1cc70b0f7",
+      "publisherGrant": "Apache-2.0",
+      "upstreamPretrainingPhotosReaudited": false,
+      "productionApproved": false
+    },
+    {
+      "id": "objects-basira-v3",
+      "sha256": "1f0e088797c8792329c0270151fc375193158f5406a94c9c214cfb3d72e54a38",
+      "publisherGrant": "Apache-2.0",
+      "upstreamPretrainingPhotosReaudited": false,
+      "productionApproved": false
+    }
+  ],
+  "noDatabase": true,
+  "noCloudInference": true,
+  "privateMediaIncluded": false,
+  "restrictedModelsIncluded": false,
+  "iphoneTested": false
+}
