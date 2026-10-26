@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "8aa29a83d5820a4adee8f34fc224878c12489a7a",
+  "sourceCommit": "0b6cc62e43f243a967bfc97b7afd589d7780a05d",
   "models": [
     {
       "id": "objects-yolox-tiny",
