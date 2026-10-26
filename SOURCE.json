@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "0b6cc62e43f243a967bfc97b7afd589d7780a05d",
+  "sourceCommit": "fcd0c5f4bcd0c99d98f6f8f23db43667362894bf",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 514,
-      "sha256": "f0bc2c7f69cb7640e5abcf46805e5a31999729c9b6f802f9ba88e1f045aa6221"
+      "sha256": "fbbbd3711abc9ee06cc8a1b45ce5c7d5d58161694b9205e5a3c3114dc1099037"
     },
     {
       "path": "api/vision/experimental-models",
@@ -82,11 +82,6 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-CCtnqfEz.js",
-      "bytes": 826216,
-      "sha256": "b4b0ec16dc18a6722bb5cf881288936393e60c3647dcf593b045b92234289edd"
-    },
-    {
       "path": "assets/index-CL_HdWjX.css",
       "bytes": 171907,
       "sha256": "dcc40e97b6d07403f7d1f390eea810bf58e67c6f16e96dd2c13ae45d96e88302"
@@ -97,14 +92,19 @@
       "sha256": "b929ddb6730731c69a6ac4d131bdcd6daf71f43b62252ef25f59780cd0ef68fe"
     },
     {
+      "path": "assets/index-DnS4lSRx.js",
+      "bytes": 829618,
+      "sha256": "61d4ac8f863a5abc8713150b7b77dad547abe8c141cfef2657e0962c9a18b993"
+    },
+    {
       "path": "assets/metricWorker-BjXR3XUd.js",
       "bytes": 6425,
       "sha256": "eccd10ab7660f8f411718831f45fa3ba56dca8c9c4b71c971d201f455c38ee5b"
     },
     {
-      "path": "assets/objectWorker-B99A23_n.js",
-      "bytes": 68096,
-      "sha256": "5ec4f0c4d8dcc345863ca9152cd6c54f7da529fae53b8518166456969ce7e4cd"
+      "path": "assets/objectWorker-DgF9FWQ4.js",
+      "bytes": 69795,
+      "sha256": "dc178d703bc37b1feee7f8d747adedfd3ee77bea60990dded35b529e3f38e49b"
     },
     {
       "path": "assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
@@ -139,7 +139,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "566bebc0ab74530ce1913df2a26d4bc93d975db5c8fd6565eac9895345f2dab7"
+      "sha256": "f66cd4d2c13b47b3d15a81b9881535e6f4cbb48e4a69f0525cd575877231b93d"
     },
     {
       "path": "manifest.webmanifest",
@@ -149,7 +149,7 @@
     {
       "path": "model-notices/preview-admission.json",
       "bytes": 2662,
-      "sha256": "429ecf20c8bfaddac62ed9476f8b2049c4521831631ec4fe70adab848a66eb10"
+      "sha256": "daf08e0e749c004ddc9dca302211b30dae6ca965fa4d5a6e75f19eb617a9cfd8"
     },
     {
       "path": "vision/efficientdet_lite0_int8.tflite",
@@ -207,7 +207,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142243705,
+  "bytes": 142248806,
   "models": [
     {
       "id": "objects-yolox-tiny",
