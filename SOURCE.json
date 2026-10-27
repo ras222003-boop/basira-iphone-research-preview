@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "40048f22832d6cb7a7dda0569234b41116caef76",
+  "sourceCommit": "9838dbd1e5b68448479870bc7b21bc5357aca43a",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -13,8 +13,8 @@
     },
     {
       "path": "api/preview/status",
-      "bytes": 514,
-      "sha256": "757d4aefa5b4d4d943664dfd1fc0bb45b1a3f45a7ddd27e838af2e366d48444c"
+      "bytes": 625,
+      "sha256": "369ebc30abd1112800b962eb71d8ec1704f79964300fcf1b36fb707cf0e48e52"
     },
     {
       "path": "api/vision/experimental-models",
@@ -82,9 +82,9 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-BfLW3sOR.js",
-      "bytes": 831397,
-      "sha256": "0f89e823ca1ee4c64c7be0732df552cbee3a4a489707246fcd7951f84bd05464"
+      "path": "assets/index-Bvs0Aojx.js",
+      "bytes": 858877,
+      "sha256": "4f4cc275a62d9204bb698986e3ab584641b52c1697f52ec3f87b0dffc4eb3435"
     },
     {
       "path": "assets/index-CL_HdWjX.css",
@@ -139,7 +139,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "d4f861679ec50a1494b0adb9ce9d3ff5c545114b5622948474d74926250c9dab"
+      "sha256": "89a4909f3ad05b050866dedc2b0dc1d4ebba1e11417be8d97b4f0bb04307e2b9"
     },
     {
       "path": "manifest.webmanifest",
@@ -149,7 +149,7 @@
     {
       "path": "model-notices/preview-admission.json",
       "bytes": 2662,
-      "sha256": "9b63fd6268735dd459271f2280da0575815af19cdc5c4e623e1a823a6ad9bcb8"
+      "sha256": "f6abed0dd426c790a9eba9826f0cf8d198704d17d7facae12c22163cd3d0eea2"
     },
     {
       "path": "vision/efficientdet_lite0_int8.tflite",
@@ -207,7 +207,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142250585,
+  "bytes": 142278176,
   "models": [
     {
       "id": "objects-yolox-tiny",

@@ -1,10 +1,10 @@
 # Basira independent iPhone research preview
 
-Source: https://github.com/ras222003-boop/B5/tree/40048f22832d6cb7a7dda0569234b41116caef76
+Source: https://github.com/ras222003-boop/B5/tree/9838dbd1e5b68448479870bc7b21bc5357aca43a
 
 This repository serves the EXISTING Basira vision page as a static browser experiment, independent of https://basira-m7myneuo.manus.space. It is not the production platform, an examination/account service, or a navigation/fall-prevention system. No database, server AI, payment service, microphone recording or private-media upload endpoint exists. Browser POST/beacon/native transcription paths are disabled; camera input is processed locally. GitHub still receives ordinary static-site access logs.
 
-Open the deployed site at its repository path with `#/navigation/vision`. Lite0 remains the default; Tiny and clean V3 require explicit selection. Model scores/colours are uncalibrated; masks remain disabled. An iPhone/VoiceOver test must be performed by the device owner and is NOT claimed by the desktop software-media test.
+Open the deployed site at its repository path with `#/navigation/vision`. Lite0 remains the default; Tiny and clean V3 require explicit selection. Model scores/colours are uncalibrated; masks remain disabled. The browser preview has no native iPhone LiDAR bridge or native haptics. Safari does not support the Web Vibration API, so vibration behaviour must be tested in the signed iOS app on a real device. An iPhone/VoiceOver test must be performed by the device owner and is NOT claimed by the desktop software-media test.
 
 Only publisher-granted Tiny and provenance-isolated V3 are included. Apache-2.0/YCB notices, training-source attributions and lineage are retained under the model API asset paths and model-notices/. No training images, protected tests, V1/V2/BDD/SegFormer/SlimSAM weights, credentials, local certificates or private logs are included. Source permission does not establish production, privacy, colour or navigation qualification.
 
