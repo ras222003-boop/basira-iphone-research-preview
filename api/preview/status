@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "5cbfaf2c2f66fc19250b1a5f6003630f280a0f00",
+  "sourceCommit": "b6013ef750082740cf41dabb379d51d3e405905a",
   "scope": "STATIC_VISION_RESEARCH_PREVIEW",
   "developmentBuild": false,
   "originalOrigin": "https://basira-m7myneuo.manus.space",
@@ -15,5 +15,12 @@
   "iphoneTested": false,
   "voiceOverTested": false,
   "productionEligible": false,
-  "navigationEligible": false
+  "navigationEligible": false,
+  "appBuiltWith": "--lite0-only (no model weights on the build machine)",
+  "modelFilesRetainedFrom": {
+    "sourceCommit": "5cbfaf2c2f66fc19250b1a5f6003630f280a0f00",
+    "meaning": "Tiny/V3 files kept byte-identical from the previously verified deployment"
+  },
+  "colourEngineV4Experimental": true,
+  "colourSpeechQualified": false
 }
