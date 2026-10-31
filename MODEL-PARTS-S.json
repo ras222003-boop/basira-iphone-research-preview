@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "target": "api/vision/object-quality/models/objects-yolox-s/assets/yolox/yolox_s.onnx",
+  "bytes": 35858002,
+  "sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+  "parts": [
+    {
+      "path": ".delivery/ys-00.bin",
+      "bytes": 5000000,
+      "sha256": "035589de16673f3dd84eb5424d7383b9c45d6a6d8df51528ca5d2bdcf49838d5"
+    },
+    {
+      "path": ".delivery/ys-01.bin",
+      "bytes": 5000000,
+      "sha256": "6c057880897fbb3c1be91e485c71423f0059929999f56f608cffcab6fb64c4a9"
+    },
+    {
+      "path": ".delivery/ys-02.bin",
+      "bytes": 5000000,
+      "sha256": "0de69aeda5803fd881d77a7589f92a82ac94474a3ca22977301288ab35fcf082"
+    },
+    {
+      "path": ".delivery/ys-03.bin",
+      "bytes": 5000000,
+      "sha256": "a311fef0d28edfceddf29423a0ea71889d8c619ac2b12db38e61dd796a852207"
+    },
+    {
+      "path": ".delivery/ys-04.bin",
+      "bytes": 5000000,
+      "sha256": "de9dfa82d0f4fcb2647865f108bd98445a7a4d257070c6e69865c3fddc7d90fc"
+    },
+    {
+      "path": ".delivery/ys-05.bin",
+      "bytes": 5000000,
+      "sha256": "fa82efc7a16ebf7ef59aad22a692a191d08b9cacd017705df3061221323880e3"
+    },
+    {
+      "path": ".delivery/ys-06.bin",
+      "bytes": 5000000,
+      "sha256": "2fd7229425ff5c2f70bbe2fc1eb8318177fc3b43792818c3375a69a738ec11c5"
+    },
+    {
+      "path": ".delivery/ys-07.bin",
+      "bytes": 858002,
+      "sha256": "18eed03014259007469927aa511c4a9e97564fb77b3d8e80ff49c2f307400b62"
+    }
+  ]
+}

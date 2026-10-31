@@ -1,6 +1,6 @@
 # Basira independent iPhone research preview
 
-Source: https://github.com/ras222003-boop/B5/tree/ece3a3ca07a2091ceaedd87703b6d27d1bb26a19 (branch claude/basira-vision-training)
+Source: https://github.com/ras222003-boop/B5/tree/9e88b8bc5d6b6e0a6dfdefbc11a0f9e271cbe404 (branch claude/basira-vision-training)
 
 This repository serves the EXISTING Basira vision page as a static browser experiment, independent of https://basira-m7myneuo.manus.space. It is not the production platform, an examination/account service, or a navigation/fall-prevention system. No database, server AI, payment service, microphone recording or private-media upload endpoint exists. Browser POST/beacon/native transcription paths are disabled; camera input is processed locally. GitHub still receives ordinary static-site access logs.
 
@@ -13,3 +13,7 @@ Deployment is manual via the Research Pages preview workflow; pushes do not depl
 ## 2026-10-31 update: experimental colour engine V4 (display only)
 
 The Vision page now offers a button "محرك الألوان" (inside the model panel, under the model picker) to switch from V3 (default) to the experimental V4 colour engine. V4 shows a dominant colour (and a secondary colour only when a verified object mask exists; this web page has none) on screen and in the local trial log. Neither engine is spoken: colour speech stays unqualified. Measured V4 accuracy on real photos is far below the 95% target (see ml/vision/COLOUR-V4.md in B5). The app files were rebuilt from the source commit above without the private model weights; the Tiny/V3 model files and their notices are retained byte-identical from the previously verified deployment (see SOURCE.json "overlay"). No iPhone or VoiceOver test is claimed.
+
+## 2026-10-31 update: experimental YOLOX-S 640 detector (evaluation only)
+
+The model picker now also offers "YOLOX-S 640 — كشف أدق وأبطأ (تجريبي)": the official YOLOX-S ONNX (Apache-2.0, 35,858,002 bytes, SHA-256 c5c2d13e…e998063) at 640×640. On our small real-photo cohort it finds more objects than Tiny at similar false-alarm counts but is about three times slower, so it may not suit live video on a phone. It is never navigation- or production-eligible, colours stay unproven, and the evaluation is in model-notices/yolox-s-evaluation.json. The weights are stored as transport parts under .delivery and reassembled and hash-checked by CI; no iPhone test is claimed.

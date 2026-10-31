@@ -126,6 +126,32 @@
         "Retain original MIT/Apache/CC BY notices and per-image attributions; public licence is not private-person consent."
       ],
       "qualification": "Source training permission is separate from product, phone, accuracy and navigation qualification. All remain unapproved."
+    },
+    {
+      "id": "objects-yolox-s",
+      "name": "YOLOX-S 640 — كشف أدق وأبطأ (تجريبي)",
+      "model": "yolox-s",
+      "modelSha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+      "threshold": 0.5,
+      "inputSize": 640,
+      "navigationEligible": false,
+      "productionEligible": false,
+      "humanApproval": false,
+      "maskForStills": false,
+      "maskModel": "slimsam-q8",
+      "maskQualification": "REJECTED_FINAL",
+      "colorStatus": "UNPROVEN",
+      "validationSha256": "f2854eaf7496d1dca553b0516bbb3dc5724d873700ef459f2611b66fcf62c49e",
+      "assets": {
+        "yolox/yolox_s.onnx": {
+          "sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+          "bytes": 35858002
+        },
+        "yolox/LICENSE": {
+          "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+          "bytes": 11371
+        }
+      }
     }
   ]
 }

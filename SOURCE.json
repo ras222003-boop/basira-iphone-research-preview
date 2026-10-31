@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "ece3a3ca07a2091ceaedd87703b6d27d1bb26a19",
+  "sourceCommit": "9e88b8bc5d6b6e0a6dfdefbc11a0f9e271cbe404",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 961,
-      "sha256": "d68c4fe2550e9adfaf5a12c50f16b690dad19a1354de5b4e7d1b733fa16ef9aa"
+      "sha256": "62579faa1d340f479da6914b92ecf71894fc2ba0a52a670a6aeb9f341e52004b"
     },
     {
       "path": "api/vision/experimental-models",
@@ -43,8 +43,8 @@
     },
     {
       "path": "api/vision/object-quality/manifest",
-      "bytes": 5810,
-      "sha256": "664454584d4c0b09c8e4e94448b5d94bbf090f92eefd1c02953c24089f858e31"
+      "bytes": 6760,
+      "sha256": "4f2b63667d9ee1b51f616a1f2b36a920537ad746a7b80c9165bc8e3a1a76a7f5"
     },
     {
       "path": "api/vision/object-quality/models/objects-basira-v3/assets/yolox/DATA-ATTRIBUTIONS.json",
@@ -77,14 +77,24 @@
       "sha256": "731a52d5fa06d1adcbe0918eda475916266d0e8a0dec7ac812b9fab557425fc6"
     },
     {
+      "path": "api/vision/object-quality/models/objects-yolox-s/assets/yolox/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "api/vision/object-quality/models/objects-yolox-s/assets/yolox/yolox_s.onnx",
+      "bytes": 35858002,
+      "sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063"
+    },
+    {
       "path": "assets/experimentalStairsWorker-dE4hzNMt.js",
       "bytes": 50932,
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-CGzZkYLz.js",
-      "bytes": 867624,
-      "sha256": "0b23bc3cfb0010a4f6fdd3bcb37aad594ff2f87c43920a594c507414038b01ef"
+      "path": "assets/index-BFOVNUYd.js",
+      "bytes": 867939,
+      "sha256": "14902c20982ef523f56fbe3b885b46be99396e034e58de1b0ee76f232b9443a4"
     },
     {
       "path": "assets/index-CL_HdWjX.css",
@@ -102,9 +112,9 @@
       "sha256": "eccd10ab7660f8f411718831f45fa3ba56dca8c9c4b71c971d201f455c38ee5b"
     },
     {
-      "path": "assets/objectWorker-Br2B_ut5.js",
-      "bytes": 69795,
-      "sha256": "2cef0497e532f53d6ccf09783b41c7af83935172527f743b978aeb7dd8ba3f66"
+      "path": "assets/objectWorker-DUgvN1Ea.js",
+      "bytes": 70137,
+      "sha256": "b1bfde7f1fe59bd2858bb8e7b02cea08ac394c87e6b2b8328b160d7c4e65d490"
     },
     {
       "path": "assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
@@ -139,7 +149,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "7d9d6d21855212c23c77ffe60ee0392d73a49445c14f9b1072c892a4399cefee"
+      "sha256": "29d6134fad2ef566d0e719a1e8603a4504da0833b3158b7075dbbaa681e35fde"
     },
     {
       "path": "manifest.webmanifest",
@@ -150,6 +160,11 @@
       "path": "model-notices/preview-admission.json",
       "bytes": 2662,
       "sha256": "93d68e7d7d4d4c994a021abc06a96a33eb75443eec01abd1c9a35c89533fc2ec"
+    },
+    {
+      "path": "model-notices/yolox-s-evaluation.json",
+      "bytes": 2560,
+      "sha256": "f2854eaf7496d1dca553b0516bbb3dc5724d873700ef459f2611b66fcf62c49e"
     },
     {
       "path": "vision/efficientdet_lite0_int8.tflite",
@@ -207,7 +222,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142287527,
+  "bytes": 178161067,
   "models": [
     {
       "id": "objects-yolox-tiny",
