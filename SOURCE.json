@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "9e88b8bc5d6b6e0a6dfdefbc11a0f9e271cbe404",
+  "sourceCommit": "167cd37b754e506ae47120e086c1dce1b7c9eda1",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 961,
-      "sha256": "62579faa1d340f479da6914b92ecf71894fc2ba0a52a670a6aeb9f341e52004b"
+      "sha256": "806239b090aba3db7855a1cc3840bb000e5a994af2594c222031e6dd5339aba8"
     },
     {
       "path": "api/vision/experimental-models",
@@ -92,9 +92,9 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-BFOVNUYd.js",
-      "bytes": 867939,
-      "sha256": "14902c20982ef523f56fbe3b885b46be99396e034e58de1b0ee76f232b9443a4"
+      "path": "assets/index-CFmd01MK.js",
+      "bytes": 868570,
+      "sha256": "7c707ce806643e3830bc0e1a54ea3414bab99045e64bd0b9d8dce8c73dc193fe"
     },
     {
       "path": "assets/index-CL_HdWjX.css",
@@ -149,7 +149,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "29d6134fad2ef566d0e719a1e8603a4504da0833b3158b7075dbbaa681e35fde"
+      "sha256": "4efdea11581850e2cdf4b1dd63f8e3f03a4c856166ac15eafce82c72b30a2798"
     },
     {
       "path": "manifest.webmanifest",
@@ -222,7 +222,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 178161067,
+  "bytes": 178161698,
   "models": [
     {
       "id": "objects-yolox-tiny",

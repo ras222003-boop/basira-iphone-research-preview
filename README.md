@@ -1,6 +1,6 @@
 # Basira independent iPhone research preview
 
-Source: https://github.com/ras222003-boop/B5/tree/9e88b8bc5d6b6e0a6dfdefbc11a0f9e271cbe404 (branch claude/basira-vision-training)
+Source: https://github.com/ras222003-boop/B5/tree/167cd37b754e506ae47120e086c1dce1b7c9eda1 (branch claude/basira-vision-training)
 
 This repository serves the EXISTING Basira vision page as a static browser experiment, independent of https://basira-m7myneuo.manus.space. It is not the production platform, an examination/account service, or a navigation/fall-prevention system. No database, server AI, payment service, microphone recording or private-media upload endpoint exists. Browser POST/beacon/native transcription paths are disabled; camera input is processed locally. GitHub still receives ordinary static-site access logs.
 
