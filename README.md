@@ -1,6 +1,6 @@
 # Basira independent iPhone research preview
 
-Source: https://github.com/ras222003-boop/B5/tree/b6013ef750082740cf41dabb379d51d3e405905a (branch claude/basira-vision-training)
+Source: https://github.com/ras222003-boop/B5/tree/ece3a3ca07a2091ceaedd87703b6d27d1bb26a19 (branch claude/basira-vision-training)
 
 This repository serves the EXISTING Basira vision page as a static browser experiment, independent of https://basira-m7myneuo.manus.space. It is not the production platform, an examination/account service, or a navigation/fall-prevention system. No database, server AI, payment service, microphone recording or private-media upload endpoint exists. Browser POST/beacon/native transcription paths are disabled; camera input is processed locally. GitHub still receives ordinary static-site access logs.
 
@@ -12,4 +12,4 @@ Deployment is manual via the Research Pages preview workflow; pushes do not depl
 
 ## 2026-10-31 update: experimental colour engine V4 (display only)
 
-The Vision page now offers a button "محرك الألوان" to switch from V3 (default) to the experimental V4 colour engine. V4 shows a dominant colour (and a secondary colour only when a verified object mask exists; this web page has none) on screen and in the local trial log. Neither engine is spoken: colour speech stays unqualified. Measured V4 accuracy on real photos is far below the 95% target (see ml/vision/COLOUR-V4.md in B5). The app files were rebuilt from the source commit above without the private model weights; the Tiny/V3 model files and their notices are retained byte-identical from the previously verified deployment (see SOURCE.json "overlay"). No iPhone or VoiceOver test is claimed.
+The Vision page now offers a button "محرك الألوان" (inside the model panel, under the model picker) to switch from V3 (default) to the experimental V4 colour engine. V4 shows a dominant colour (and a secondary colour only when a verified object mask exists; this web page has none) on screen and in the local trial log. Neither engine is spoken: colour speech stays unqualified. Measured V4 accuracy on real photos is far below the 95% target (see ml/vision/COLOUR-V4.md in B5). The app files were rebuilt from the source commit above without the private model weights; the Tiny/V3 model files and their notices are retained byte-identical from the previously verified deployment (see SOURCE.json "overlay"). No iPhone or VoiceOver test is claimed.

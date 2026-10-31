@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "b6013ef750082740cf41dabb379d51d3e405905a",
+  "sourceCommit": "ece3a3ca07a2091ceaedd87703b6d27d1bb26a19",
   "sourceWasClean": true,
   "developmentBuild": false,
   "publishable": true,
@@ -14,7 +14,7 @@
     {
       "path": "api/preview/status",
       "bytes": 961,
-      "sha256": "89630f3d368551b6c13248fdef10e9a21684d6f53f4eb3d5061e79b7566f2b0f"
+      "sha256": "d68c4fe2550e9adfaf5a12c50f16b690dad19a1354de5b4e7d1b733fa16ef9aa"
     },
     {
       "path": "api/vision/experimental-models",
@@ -82,9 +82,9 @@
       "sha256": "dcd1d93ad112c23cc8a040a37c3880774591242ad86e63335bfaebc0f654d563"
     },
     {
-      "path": "assets/index-C7mM4mWw.js",
-      "bytes": 867583,
-      "sha256": "f5e2e0692a8acce860961edb601677248c375dab71fecb4e6c4ac630bdbdef1d"
+      "path": "assets/index-CGzZkYLz.js",
+      "bytes": 867624,
+      "sha256": "0b23bc3cfb0010a4f6fdd3bcb37aad594ff2f87c43920a594c507414038b01ef"
     },
     {
       "path": "assets/index-CL_HdWjX.css",
@@ -139,7 +139,7 @@
     {
       "path": "index.html",
       "bytes": 1556,
-      "sha256": "e6f7fe7f9de259fd4567f96ed6e4b86949401198addd65ecdd3ec90d6bc8b119"
+      "sha256": "7d9d6d21855212c23c77ffe60ee0392d73a49445c14f9b1072c892a4399cefee"
     },
     {
       "path": "manifest.webmanifest",
@@ -207,7 +207,7 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "bytes": 142287486,
+  "bytes": 142287527,
   "models": [
     {
       "id": "objects-yolox-tiny",
@@ -231,6 +231,7 @@
   "iphoneTested": false,
   "overlay": {
     "app": "built from the source commit with scripts/github-preview/build.mjs --development --lite0-only on a clean tree",
+    "modelsRetainedFrom": "5cbfaf2c2f66fc19250b1a5f6003630f280a0f00",
     "models": "api/vision/object-quality/** and model-notices/** retained byte-identical from 5cbfaf2c2f66fc19250b1a5f6003630f280a0f00"
   }
 }
